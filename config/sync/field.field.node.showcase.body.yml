@@ -1,0 +1,22 @@
+uuid: f0a19562-35fc-4413-b22e-859b8a4065fd
+langcode: sk
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.showcase
+  module:
+    - text
+id: node.showcase.body
+field_name: body
+entity_type: node
+bundle: showcase
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

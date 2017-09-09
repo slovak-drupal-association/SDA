@@ -1,0 +1,28 @@
+uuid: a7b1eaf6-8c14-4eb1-b209-f092920ad9aa
+langcode: sk
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_image
+    - media_entity.bundle.image
+    - paragraphs.paragraphs_type.image_block
+id: paragraph.image_block.field_image
+field_name: field_image
+entity_type: paragraph
+bundle: image_block
+label: Obrazok
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,24 @@
+uuid: ed4feb22-86a9-4bc2-9779-51d23af9e078
+langcode: sk
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.row.field_blocks
+    - paragraphs.paragraphs_type.row
+  module:
+    - entity_reference_revisions
+id: paragraph.row.default
+targetEntityType: paragraph
+bundle: row
+mode: default
+content:
+  field_blocks:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden: {  }

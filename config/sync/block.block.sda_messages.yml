@@ -1,0 +1,22 @@
+uuid: e8e2eead-740b-4ddd-8396-043eea8e4537
+langcode: sk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sda
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: sda_messages
+theme: sda
+region: content
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

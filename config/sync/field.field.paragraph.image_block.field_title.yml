@@ -1,0 +1,19 @@
+uuid: 15cc2f32-e3ef-446e-ac54-f6a8217aa649
+langcode: sk
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.image_block
+id: paragraph.image_block.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: image_block
+label: Nadpis
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,52 @@
+uuid: cdfba519-3adf-4294-9425-022f7183e5af
+langcode: sk
+status: true
+dependencies:
+  config:
+    - field.field.node.showcase.body
+    - field.field.node.showcase.field_about_author
+    - field.field.node.showcase.field_media_image
+    - field.field.node.showcase.field_type
+    - node.type.showcase
+  module:
+    - text
+    - user
+id: node.showcase.default
+targetEntityType: node
+bundle: showcase
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_about_author:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_media_image:
+    weight: 0
+    label: hidden
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+  field_type:
+    weight: 3
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden:
+  langcode: true
+  links: true

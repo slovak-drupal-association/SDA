@@ -1,0 +1,8 @@
+uuid: 99820caa-4168-46c0-b6cf-614e0853b9a5
+langcode: sk
+status: true
+dependencies: {  }
+id: hero
+label: Hero
+revision: 0
+description: ''

@@ -1,0 +1,13 @@
+uuid: faff29f1-4736-4287-b0a2-fd1c6146abe1
+langcode: sk
+status: true
+dependencies:
+  module:
+    - media_entity
+_core:
+  default_config_hash: Bis1eEetH6KGAgrwR3i4JT3gZfQjRg6RnXMCJdlkhGU
+id: media_publish_action
+label: 'Publish media'
+type: media
+plugin: media_publish_action
+configuration: {  }

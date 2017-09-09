@@ -1,0 +1,22 @@
+uuid: 1643c18d-1080-4f4e-be3f-cc1916640a19
+langcode: sk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sda
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: sda_powered
+theme: sda
+region: footer
+weight: -4
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Beží na Drupale'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 43eb0dd2-74f2-4082-a036-24e8eb12685f
+langcode: sk
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.flexible_page
+  module:
+    - text
+id: node.flexible_page.body
+field_name: body
+entity_type: node
+bundle: flexible_page
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

@@ -1,0 +1,30 @@
+uuid: 32f1fad5-adb5-43bf-8d1c-fc62f975000b
+langcode: sk
+status: true
+dependencies:
+  config:
+    - views.view.frontpage
+  module:
+    - system
+    - views
+  theme:
+    - sda
+id: views_block__frontpage_block_1
+theme: sda
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:frontpage-block_1'
+settings:
+  id: 'views_block:frontpage-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

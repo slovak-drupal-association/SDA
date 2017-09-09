@@ -1,0 +1,13 @@
+uuid: 15e3b18d-65ee-4853-bb16-c528d755d0c9
+langcode: sk
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: JBptjnfuOMtsdKygklXxoOgeOCTMtQxlkymjnnj-cC0
+id: node_unpromote_action
+label: 'Odstrániť obsah z hlavnej stránky'
+type: node
+plugin: node_unpromote_action
+configuration: {  }

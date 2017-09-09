@@ -1,0 +1,8 @@
+uuid: c62ce8a6-4ef3-4641-9b67-043bbeb0d70e
+langcode: sk
+status: true
+dependencies: {  }
+id: featured_case_study
+label: 'Featured case study'
+revision: 0
+description: ''

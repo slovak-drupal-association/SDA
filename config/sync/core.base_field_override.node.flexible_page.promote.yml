@@ -1,0 +1,22 @@
+uuid: 1f85aa52-d09b-4ec0-a23c-e3460d3531c2
+langcode: sk
+status: true
+dependencies:
+  config:
+    - node.type.flexible_page
+id: node.flexible_page.promote
+field_name: promote
+entity_type: node
+bundle: flexible_page
+label: 'Zobrazené na titulnej strane'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Zapnúť
+  off_label: Vypnúť
+field_type: boolean

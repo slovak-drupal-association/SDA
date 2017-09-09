@@ -1,0 +1,7 @@
+uuid: 246fbd6d-c13e-44b3-b360-96da48f536c2
+langcode: sk
+status: true
+dependencies: {  }
+id: image_text_block
+label: 'Image + text block'
+behavior_plugins: {  }

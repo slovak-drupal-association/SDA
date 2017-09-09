@@ -1,0 +1,33 @@
+uuid: 9063bb27-851a-43e5-a334-2abd6fc3efab
+langcode: sk
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.member.body
+    - field.field.node.member.field_media_image
+    - field.field.node.member.field_membership
+    - field.field.node.member.field_social_networks
+    - node.type.member
+  module:
+    - user
+id: node.member.teaser
+targetEntityType: node
+bundle: member
+mode: teaser
+content:
+  field_media_image:
+    type: entity_reference_entity_view
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
+hidden:
+  body: true
+  field_membership: true
+  field_social_networks: true
+  langcode: true
+  links: true

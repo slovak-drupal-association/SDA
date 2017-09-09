@@ -1,0 +1,33 @@
+uuid: f5cde518-308e-44f7-9c4c-2738de644e52
+langcode: sk
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.showcase.body
+    - field.field.node.showcase.field_about_author
+    - field.field.node.showcase.field_media_image
+    - field.field.node.showcase.field_type
+    - node.type.showcase
+  module:
+    - user
+id: node.showcase.teaser
+targetEntityType: node
+bundle: showcase
+mode: teaser
+content:
+  field_media_image:
+    type: entity_reference_entity_view
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
+hidden:
+  body: true
+  field_about_author: true
+  field_type: true
+  langcode: true
+  links: true

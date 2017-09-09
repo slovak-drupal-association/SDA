@@ -1,0 +1,11 @@
+uuid: 171d2887-2b62-42ba-8f7a-25813d53c2fa
+langcode: sk
+status: true
+dependencies:
+  config:
+    - node.type.member
+id: node.member
+target_entity_type_id: node
+target_bundle: member
+default_langcode: site_default
+language_alterable: false

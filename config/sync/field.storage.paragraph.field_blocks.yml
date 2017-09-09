@@ -1,0 +1,20 @@
+uuid: af40b6a1-7593-4e4d-9a97-49b87485bc0e
+langcode: sk
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - paragraphs
+id: paragraph.field_blocks
+field_name: field_blocks
+entity_type: paragraph
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: 3
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

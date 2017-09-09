@@ -1,0 +1,9 @@
+uuid: eb229281-1862-4c7d-9d5a-f6791094a763
+langcode: sk
+status: true
+dependencies: {  }
+name: 'Kategorie showcase'
+vid: showcase_categories
+description: ''
+hierarchy: 0
+weight: 0

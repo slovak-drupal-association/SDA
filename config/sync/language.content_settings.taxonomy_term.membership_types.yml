@@ -1,0 +1,11 @@
+uuid: 2183ac68-ff2f-4de3-b647-3e959f6f9be2
+langcode: sk
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.membership_types
+id: taxonomy_term.membership_types
+target_entity_type_id: taxonomy_term
+target_bundle: membership_types
+default_langcode: site_default
+language_alterable: false

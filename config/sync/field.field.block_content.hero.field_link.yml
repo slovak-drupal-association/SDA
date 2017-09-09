@@ -1,0 +1,23 @@
+uuid: 44f05344-119c-4668-927a-3970b1adca04
+langcode: sk
+status: true
+dependencies:
+  config:
+    - block_content.type.hero
+    - field.storage.block_content.field_link
+  module:
+    - link
+id: block_content.hero.field_link
+field_name: field_link
+entity_type: block_content
+bundle: hero
+label: Link
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 2
+field_type: link

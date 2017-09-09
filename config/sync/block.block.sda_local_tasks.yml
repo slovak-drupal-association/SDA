@@ -1,0 +1,22 @@
+uuid: 721e417d-90c8-46eb-8188-e84eda42facb
+langcode: sk
+status: true
+dependencies:
+  theme:
+    - sda
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: sda_local_tasks
+theme: sda
+region: content
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Záložky
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

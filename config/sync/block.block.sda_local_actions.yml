@@ -1,0 +1,20 @@
+uuid: 05e01cd4-425c-4c85-8c41-044bee51d332
+langcode: sk
+status: true
+dependencies:
+  theme:
+    - sda
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: sda_local_actions
+theme: sda
+region: content
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

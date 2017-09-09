@@ -1,0 +1,7 @@
+uuid: dc355a52-fc95-4998-b0a0-1840c46df8ed
+langcode: sk
+status: true
+dependencies: {  }
+id: row
+label: Row
+behavior_plugins: {  }

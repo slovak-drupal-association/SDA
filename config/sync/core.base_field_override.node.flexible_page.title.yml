@@ -1,0 +1,18 @@
+uuid: 5895de83-7391-42d3-8532-74012a5152dd
+langcode: sk
+status: true
+dependencies:
+  config:
+    - node.type.flexible_page
+id: node.flexible_page.title
+field_name: title
+entity_type: node
+bundle: flexible_page
+label: Nadpis
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

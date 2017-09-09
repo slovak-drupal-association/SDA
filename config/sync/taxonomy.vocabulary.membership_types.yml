@@ -1,0 +1,9 @@
+uuid: 54a982f0-b0be-406e-ba1f-6ec4821af605
+langcode: sk
+status: true
+dependencies: {  }
+name: 'Membership types'
+vid: membership_types
+description: ''
+hierarchy: 0
+weight: 0

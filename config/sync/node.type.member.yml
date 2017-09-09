@@ -1,0 +1,18 @@
+uuid: 28c952d6-62e7-4fe5-8014-2c7804e2e25d
+langcode: sk
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Member
+type: member
+description: ''
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

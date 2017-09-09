@@ -1,0 +1,16 @@
+uuid: b63a6dc3-e96b-4830-b4a5-d90c77666e2e
+langcode: sk
+status: true
+dependencies:
+  module:
+    - media_entity_image
+id: image
+label: Image
+description: ''
+type: image
+queue_thumbnail_downloads: false
+new_revision: false
+type_configuration:
+  source_field: field_image
+  gather_exif: false
+field_map: {  }

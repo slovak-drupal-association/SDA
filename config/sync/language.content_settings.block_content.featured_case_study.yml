@@ -1,0 +1,11 @@
+uuid: 16d68292-9125-4270-99ac-9f767b9c9262
+langcode: sk
+status: true
+dependencies:
+  config:
+    - block_content.type.featured_case_study
+id: block_content.featured_case_study
+target_entity_type_id: block_content
+target_bundle: featured_case_study
+default_langcode: site_default
+language_alterable: false

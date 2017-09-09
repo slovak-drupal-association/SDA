@@ -1,0 +1,21 @@
+uuid: 32a84d92-c81e-4cbd-8813-5a0f3c38f90d
+langcode: sk
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_about_author
+    - node.type.showcase
+  module:
+    - text
+id: node.showcase.field_about_author
+field_name: field_about_author
+entity_type: node
+bundle: showcase
+label: 'O tvorcovi'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

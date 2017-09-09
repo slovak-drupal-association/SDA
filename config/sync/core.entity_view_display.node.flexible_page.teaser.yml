@@ -1,0 +1,29 @@
+uuid: f1e72d1c-aecb-44fe-ad67-4f3767cea9d1
+langcode: sk
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.flexible_page.body
+    - node.type.flexible_page
+  module:
+    - text
+    - user
+id: node.flexible_page.teaser
+targetEntityType: node
+bundle: flexible_page
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

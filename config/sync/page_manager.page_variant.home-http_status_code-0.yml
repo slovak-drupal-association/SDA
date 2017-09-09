@@ -1,0 +1,20 @@
+uuid: a63a2574-7217-4e3e-94f6-448f18d61ce6
+langcode: sk
+status: true
+dependencies:
+  config:
+    - page_manager.page.home
+id: home-http_status_code-0
+label: 'HTTP status code'
+variant: http_status_code
+variant_settings:
+  id: http_status_code
+  uuid: 957d3fa9-56f8-4951-b6df-0e2f73af3aca
+  label: null
+  weight: 0
+  status_code: 200
+page: home
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

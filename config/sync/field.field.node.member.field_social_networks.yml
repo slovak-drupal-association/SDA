@@ -1,0 +1,23 @@
+uuid: 78209308-8762-41cb-8910-f28a99a9b6f9
+langcode: sk
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_social_networks
+    - node.type.member
+  module:
+    - link
+id: node.member.field_social_networks
+field_name: field_social_networks
+entity_type: node
+bundle: member
+label: 'Social networks'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 0
+field_type: link

@@ -1,0 +1,22 @@
+uuid: 584b47d1-257f-425f-abaa-80f0403497a8
+langcode: sk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - seven
+_core:
+  default_config_hash: YRY68JWkaUiGeZlWMv1nzeIgDm0ZZwXYgpqUpLFzwAY
+id: seven_content
+theme: seven
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Hlavný obsah stránky'
+  provider: system
+  label_display: '0'
+visibility: {  }

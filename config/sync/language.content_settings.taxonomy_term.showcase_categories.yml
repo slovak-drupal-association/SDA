@@ -1,0 +1,11 @@
+uuid: 63c36166-5942-49eb-ba55-2925a112989c
+langcode: sk
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.showcase_categories
+id: taxonomy_term.showcase_categories
+target_entity_type_id: taxonomy_term
+target_bundle: showcase_categories
+default_langcode: site_default
+language_alterable: false

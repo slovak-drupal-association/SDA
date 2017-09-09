@@ -1,0 +1,22 @@
+uuid: 8d9ba101-b948-48ed-ba71-59859b0fa107
+langcode: sk
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.member
+  module:
+    - text
+id: node.member.body
+field_name: body
+entity_type: node
+bundle: member
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

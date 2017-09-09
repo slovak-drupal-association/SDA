@@ -1,0 +1,28 @@
+uuid: c525a497-309d-41ff-ae99-3324f2ca1a97
+langcode: sk
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_membership
+    - node.type.member
+    - taxonomy.vocabulary.membership_types
+id: node.member.field_membership
+field_name: field_membership
+entity_type: node
+bundle: member
+label: 'Typ clenstva'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      membership_types: membership_types
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

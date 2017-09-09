@@ -1,0 +1,13 @@
+uuid: b5948d96-c7b6-4f07-b385-8363b2ed13cb
+langcode: sk
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: Zx0jD1Klh5tZaGJy8uOeR_2MCu9FDM4xg7TaUJUEbkI
+id: node_delete_action
+label: 'Odstrániť obsah'
+type: node
+plugin: node_delete_action
+configuration: {  }

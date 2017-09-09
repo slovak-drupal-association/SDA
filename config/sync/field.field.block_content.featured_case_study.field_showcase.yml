@@ -1,0 +1,28 @@
+uuid: 12139acf-12d2-4486-8b38-d46d444a7126
+langcode: sk
+status: true
+dependencies:
+  config:
+    - block_content.type.featured_case_study
+    - field.storage.block_content.field_showcase
+    - node.type.showcase
+id: block_content.featured_case_study.field_showcase
+field_name: field_showcase
+entity_type: block_content
+bundle: featured_case_study
+label: Showcase
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      showcase: showcase
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

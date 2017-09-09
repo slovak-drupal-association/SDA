@@ -1,0 +1,7 @@
+uuid: 07fab7dc-5668-4b26-adbf-63bd1e3f4d9f
+langcode: sk
+status: true
+dependencies: {  }
+id: image_block
+label: 'Image block'
+behavior_plugins: {  }

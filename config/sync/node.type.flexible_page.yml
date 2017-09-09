@@ -1,0 +1,18 @@
+uuid: f8835b8e-7bd7-4a45-9fcc-0c2f916730c0
+langcode: sk
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Flexible page'
+type: flexible_page
+description: ''
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

@@ -1,0 +1,11 @@
+uuid: c5fe9928-1358-4324-a12f-79ca9fdf9a79
+langcode: sk
+status: true
+dependencies:
+  config:
+    - node.type.flexible_page
+id: node.flexible_page
+target_entity_type_id: node
+target_bundle: flexible_page
+default_langcode: site_default
+language_alterable: false

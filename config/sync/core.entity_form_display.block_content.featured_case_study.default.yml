@@ -1,0 +1,36 @@
+uuid: c798d93e-c238-42ca-93cc-efaa95aef9b4
+langcode: sk
+status: true
+dependencies:
+  config:
+    - block_content.type.featured_case_study
+    - field.field.block_content.featured_case_study.field_showcase
+id: block_content.featured_case_study.default
+targetEntityType: block_content
+bundle: featured_case_study
+mode: default
+content:
+  field_showcase:
+    weight: 26
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }
