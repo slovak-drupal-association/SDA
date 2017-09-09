@@ -1,0 +1,5 @@
+global:
+  css:
+    component:
+      https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css: {type: external, minified: true}
+      css/style.css: {}
